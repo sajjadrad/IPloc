@@ -1,7 +1,7 @@
 IPloc
 =====
 
-Find IP Country
+Find Country with IP
 
 Prepare Database
 ===
