@@ -15,11 +15,12 @@ Its easy!<br/>
 Just include <code>lib/iploc.php</code> and create new iploc class.Then call getIPInfo function with two arguments.</br>
 * ip : client ip.
 * option : choice ip info to return.
-** countryname : return ip country name.
-** countrycode : return ip country code.
+* option - countryname : return ip country name.
+* option - countrycode : return ip country code.
+
 ```php
     require('lib/iploc.php');
   	$ip = $_GET['ip'];
-		$temp = new iploc();
-		echo $temp->getIPInfo($ip,"countryname");
+	$temp = new iploc();
+	echo $temp->getIPInfo($ip,"countryname");
 ```
