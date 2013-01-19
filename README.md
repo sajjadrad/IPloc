@@ -9,6 +9,21 @@ For first step you must download <a href="http://www.zaigadgets.com">ZaiGadgets<
 <br/>
 After that import MySQL table to your GeoIP databse.
 
+Configure
+===
+You should config MySQL database information.
+* Open lib/conf.php file
+* dbname : Database name
+* dbuser : Username
+* dbpass : Password
+
+
+```php
+$dbname='geoip';
+$dbUser='root';
+$dbPass='';
+```
+
 Using
 ===
 Its easy!<br/>
@@ -19,8 +34,8 @@ Just include <code>lib/iploc.php</code> and create new iploc class.Then call get
 * option - countrycode : return ip country code.
 
 ```php
-    require('lib/iploc.php');
-  	$ip = $_GET['ip'];
-	$temp = new iploc();
-	echo $temp->getIPInfo($ip,"countryname");
+require('lib/iploc.php');
+$ip = $_GET['ip'];
+$temp = new iploc();
+echo $temp->getIPInfo($ip,"countryname");
 ```
