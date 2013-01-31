@@ -7,7 +7,7 @@ Prepare Database
 ===
 For first step you must download <a href="http://www.zaigadgets.com">ZaiGadgets</a> <a href="http://zaigadgets.com/geoip">GeoIP CSV database</a> and convert it to MySQL version by <a href="http://www.sajjadrad.com/biter/geoip">Biter GeoIP to MySQL</a>.
 <br/>
-After that import MySQL table to your GeoIP databse.
+After that import MySQL table to your GeoIP database.
 
 Configure
 ===
